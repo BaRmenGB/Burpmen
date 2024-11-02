@@ -1,0 +1,83 @@
+@import url("fonts.css");
+*{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+*{
+    color: white;
+    font-family: "SF";
+}
+body{
+    background-color: #162831;
+}
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    padding: 0 16px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+header {
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+.btn{
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #018ABE;
+    padding: 9px 15px;
+    border-radius: 3px;
+    transition: 400ms;
+
+}
+.btn:hover{
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+}
+.btn.invert{
+    color:#018ABE;
+    background-color: white;
+    box-shadow: 0 0 6px 4px rgba(1, 138, 190, 0.15);
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+    font-size: 14px;
+}
+a {
+    transition: 400ms;
+}
+nav a:hover{
+    color: #018ABE
+}
+
+main{
+    margin-top: 144px;
+}
+section.main{
+    height: 600px;
+    background-image: url("../img/women.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
